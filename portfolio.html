@@ -9,11 +9,11 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="page-header">
+        <nav class="container">
             <a class="logo" href=""><span style="color: #2196F3;">Web</span><span style="color: #000000;">Studio</span></a>
             <ul class="nav">
-                <li><a class="link" href="./index.html">Студия</a></li>
+                <li><a class="link" href="/index.html">Студия</a></li>
                 <li><a class="link current" href="">Портфолио</a></li>
                 <li><a class="link" href="">Контакты</a></li>
             </ul>
@@ -22,85 +22,103 @@
                     <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-            </address>
-    
+            </address>  
+            
         </nav>
     </header>
     <main>
-        <section class="section">
+        <section class="section portfolio-background">
             <!-- <h1>Портфолио</h1> -->
-            <ul>
-                <li><button class="list-btn" type="button">Вcе</button></li>
-                <li><button class="list-btn" type="button">Веб-сайты</button></li>
-                <li><button class="list-btn" type="button">Приложения</button></li>
-                <li><button class="list-btn" type="button">Дизайн</button></li>
-                <li><button class="list-btn" type="button">Маркетинг</button></li>
+            <ul class="container-web portfolio">
+                <li class="list-navigation"><button class="list-btn" type="button">Вcе</button></li>
+                <li class="list-navigation"><button class="list-btn" type="button">Веб-сайты</button></li>
+                <li class="list-navigation"><button class="list-btn" type="button">Приложения</button></li>
+                <li class="list-navigation"><button class="list-btn" type="button">Дизайн</button></li>
+                <li class="list-navigation"><button class="list-btn" type="button">Маркетинг</button></li>
             </ul>
-            <ul class="section-list">
-                <li>
-                    <a href=""><img src="./images/portfolio1.jpg" alt="photo">
-                    <h2 class="section-item">Технокряк</h2>
-                    <p class="section-tagline">Веб-сайт</p>
-                    </a>
+            <ul class="section-list container-web">
+                <li class="lists-section">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio1.jpg" alt="photo">
+                            <h2 class="section-item">Технокряк</h2>
+                            <p class="section-tagline">Веб-сайт</p>
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio2.jpg" alt="photo">
-                    <h2 class="section-item">Постер New Orlean vs Golden Star</h2>
-                    <p class="section-tagline">Дизайн</p>
-                    </a>
+                <li class="lists-section">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio2.jpg" alt="photo">
+                            <h2 class="section-item">Постер New Orlean vs Golden Star</h2>
+                            <p class="section-tagline">Дизайн</p>
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio3.jpg" alt="photo">
-                    <h2 class="section-item">Ресторан Seafood</h2>
-                    <p class="section-tagline">Приложение</p>
-                    </a>
+                <li class="lists-section not">
+                   <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio3.jpg" alt="photo">
+                            <h2 class="section-item">Ресторан Seafood</h2>
+                            <p class="section-tagline">Приложение</p>
+                        </a>
+                   </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio4.jpg" alt="photo">
-                    <h2 class="section-item">Проект Prime</h2>
-                    <p class="section-tagline">Маркетинг</p>
-                    </a>
+                <li class="lists-section">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio4.jpg" alt="photo">
+                            <h2 class="section-item">Проект Prime</h2>
+                            <p class="section-tagline">Маркетинг</p>
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio5.jpg" alt="photo">
-                    <h2 class="section-item">Проект Boxes</h2>
-                    <p class="section-tagline">Приложение</p>
-                    </a>
+                <li class="lists-section">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio5.jpg" alt="photo">
+                            <h2 class="section-item">Проект Boxes</h2>
+                            <p class="section-tagline">Приложение</p>
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio6.jpg" alt="photo">
-                    <h2 class="section-item">Inspiration has no Borders</h2>
-                    <p class="section-tagline">Веб-сайт</p>
-                    </a>
+                <li class="lists-section not">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio6.jpg" alt="photo">
+                            <h2 class="section-item">Inspiration has no Borders</h2>
+                            <p class="section-tagline">Веб-сайт</p>
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio7.jpg" alt="photo">
-                    <h2 class="section-item">Издание Limited Edition</h2>
-                    <p class="section-tagline">Дизайн</p>
-                    </a>
+                <li class="lists-section lists-cards">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio7.jpg" alt="photo">
+                            <h2 class="section-item">Издание Limited Edition</h2>
+                            <p class="section-tagline">Дизайн</p>
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio8.jpg" alt="photo">
-                    <h2 class="section-item">Проект LAB</h2>
-                    <p class="section-tagline">Маркетинг</p>
-                    </a>
+                <li class="lists-section lists-cards">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio8.jpg" alt="photo">
+                            <h2 class="section-item">Проект LAB</h2>
+                            <p class="section-tagline">Маркетинг</p>
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href=""><img src="./images/portfolio9.jpg" alt="photo">
-                    <h2 class="section-item">Growing Business</h2>
-                    <p class="section-tagline">Приложение</p>
-                    </a>
+                <li class="lists-section not lists-cards">
+                    <div class="section-list-card">
+                        <a href=""><img src="./images/portfolio9.jpg" alt="photo">
+                            <h2 class="section-item">Growing Business</h2>
+                            <p class="section-tagline">Приложение</p>
+                        </a>
+                    </div>
                 </li>
             </ul>
         </section>
     </main>
     <footer class="footer">
         <a class="logo" href=""><span style="color: #2196F3;">Web</span><span style="color: #FFFFFF;">Studio</span></a>
-        <address>
+        <address class="footer-address">
             <p class="footer-title">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul>
-                <li><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="footer-nav">
+                <li class="footer-links"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-links"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
