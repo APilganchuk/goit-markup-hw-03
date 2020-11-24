@@ -415,9 +415,10 @@ a {
     padding-left: 5px;
 
 }
-.section.portfolio-background {
+.section.portfolio-container {
     background-color: #FFFFFF;
     width: 1600px;
+    padding-bottom: 94px;
 
 }
 .portfolio {
