@@ -213,15 +213,16 @@ a {
 }
 /* Хедер */
 
-
-.page-header {
-    width: 1600px;
-          
-    
-       
-}
 .page-header .container {
     background-color: #ffffff;
+}
+.page-header {
+    width: 1170px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .container {
     align-items: center;
@@ -229,14 +230,9 @@ a {
     width: 1170px;
     margin-bottom: 0;
     margin-top: 0;
-    margin-right: 215px;
-    margin-left: 215px;
-    padding-right: 5px;
-    padding-left: 5px;
-
-
-    
-   
+    margin-left: auto;
+    margin-right: auto;
+         
              
 }
 .container .logo {
@@ -271,7 +267,11 @@ a {
 }
 /* Сексия "Герой" */
 .hero {
-    width: 1600px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 5px;
+    padding-left: 5px;
 
     background: #2F303A;
     
@@ -296,6 +296,8 @@ a {
     
     padding-top: 94px;
     padding-bottom: 94px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #ffffff;
 }
 .container .section-title {
@@ -384,7 +386,7 @@ a {
 }
 /* Позиционирование подвала */
 .footer {
-    width: 1600px;
+    
     background-color: #2F303A;
     
     
@@ -397,7 +399,7 @@ a {
 }
 .footer-address {
     display: block;
-    padding: 20px 1154px 60px 215px;
+    padding: 20px 1139px 60px 215px;
    
 }
 .footer-nav {
@@ -416,27 +418,29 @@ a {
 }
 /* Позиционирования страницы ПОРТФОЛИО */
 .container-web {
-    
     display: flex;
-    width: 1176px;
     margin-bottom: 0;
     margin-top: 0;
-    margin-right: 215px;
-    margin-left: 215px;
-    padding-right: 5px;
-    padding-left: 5px;
+    
+    
 
 }
 .section.portfolio-container {
+    width: 1170px;
     background-color: #FFFFFF;
-    width: 1600px;
     padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 .portfolio {
     justify-content: center;
     padding-top: 94px;
     padding-bottom: 34px;
+    padding-left: 0;
+    padding-right: 0;
     
 }
 .portfolio .list-navigation:not(:last-child) {
@@ -453,6 +457,8 @@ a {
 }
 .section-list.container-web {
     flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
     
     
 }
