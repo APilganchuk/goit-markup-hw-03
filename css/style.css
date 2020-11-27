@@ -340,6 +340,7 @@ a {
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 94px;
+    
 }
 .section-team {
     text-align: center;
@@ -347,6 +348,9 @@ a {
     margin-bottom: 0;
     padding-bottom: 50px;
     padding-top: 94px;
+}
+.list-workers:not(:last-child) {
+    margin-right: 30px;
 }
 
 .section-avatar ,
