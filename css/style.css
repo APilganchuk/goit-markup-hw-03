@@ -282,6 +282,8 @@ a {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #ffffff;
+    padding-left: 0;
+    padding-right: 0;
 }
 .container .section-title {
     margin-top: 0;
