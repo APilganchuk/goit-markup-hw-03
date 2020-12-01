@@ -1,7 +1,8 @@
 :root {
     --primary-text-color: #757575;
     --accent-color: #2196F3;
-    
+    --white-color: #ffffff;
+    --white-bg-color: #ffffff;
 
 
 }
@@ -50,12 +51,12 @@ img {
 
 }
 .nav .link.current {
-    color: var(--accent-color)
+    color: var(--accent-color);
 
 }
 .nav .link:hover ,
 .nav .link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 
 }
 .auth-nav .link {
@@ -83,7 +84,7 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
        
-    color: #FFFFFF;;
+    color: var(--white-color);
 
 }
 .hero .button {
@@ -91,7 +92,7 @@ img {
     
 
     background-color: var(--accent-color);
-    color: #FFFFFF;
+    color: var(--white-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;     
@@ -160,7 +161,7 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 
@@ -176,7 +177,7 @@ img {
 /* Стили кнопок страницы "Портфолио" */
 .list-btn:hover ,
 .list-btn:focus {
-    color: #FFFFFF;
+    color: var(--white-color);
     background: var(--accent-color);
    
 }                           
@@ -201,14 +202,14 @@ img {
     line-height: 1.88;
     letter-spacing: 0.03em;
 
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 /* Позиционирование */
 
 /* Хедер */
 
 .page-header .container {
-    background-color: #ffffff;
+    background-color: var(--white-bg-color);
 }
 .page-header {
     border-bottom: 1px solid #ECECEC;
@@ -275,25 +276,29 @@ img {
 .hero {
     text-align: center;
     padding-bottom: 200px;
-    
+    padding-top: 200px;
     background: #2F303A;
               
 }
 .hero-title {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 200px;
     padding-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 /* Секция со скрытым заголовком */
 .no-title {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+
     
+}
+.section.container {
+    background: var(--white-bg-color);
 }
 .container .section-title {
     margin-top: 0;
@@ -329,7 +334,7 @@ img {
 }
 
 .section.team-work {
-    background-color: #ffffff;
+    background-color: var(--white-bg-color);
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -382,7 +387,7 @@ img {
     padding-bottom: 30px;
 }
 .card-workers {
-    background: #FFFFFF;
+    background: var(--white-bg-color);
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -430,7 +435,7 @@ img {
 /* Шапка */
 
 .main-container {
-    background: #ffffff;
+    background: var(--white-bg-color);
    
 }
 .web-container {
@@ -443,7 +448,7 @@ img {
 }
 .section.portfolio-container {
     width: 1200px;
-    background-color: #FFFFFF;
+    background-color: var(--white-bg-color);
     margin-top: 94px;
     margin-bottom: 94px;
     margin-left: auto;
@@ -472,7 +477,7 @@ img {
     padding: 6px 22px;
 }
 .container.portfolio {
-    background: #FFFFFF;
+    background: var(--white-bg-color);
 }
 
 .section-list .lists-section:nth-child(n + 1) {
@@ -499,7 +504,7 @@ padding: 20px 24px;
 .section-list-card {
     width: 370px;
 
-    background: #FFFFFF;
+    background: var(--white-bg-color);
     box-shadow: 
     0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
